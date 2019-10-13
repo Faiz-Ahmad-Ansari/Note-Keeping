@@ -9,7 +9,7 @@
     text-align: center;
 }
 .loginContainer2{
-    width: 60vh;
+    width: 400px;
     height: 400px;
     border:  1px solid black;
     box-shadow: 1px 1px 7px black;
@@ -19,4 +19,10 @@
     padding: 10px;
     margin: 10px;
     box-shadow: 1px 1px 2px black;
+}
+
+@media only screen and (max-width: 500px){
+    .loginContainer2{
+        width: 200px;
+    }
 }

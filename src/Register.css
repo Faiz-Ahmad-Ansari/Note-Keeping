@@ -9,7 +9,7 @@
     text-align: center;
 }
 .registerContainer2{
-    width: 60vh;
+    width: 400px;
     height: 500px;
     border:  1px solid black;
     box-shadow: 1px 1px 7px black;
@@ -19,4 +19,14 @@
     padding: 5px;
     margin: 5px;
     box-shadow: 1px 1px 2px black;
+}
+@media only screen and (max-width: 500px){
+    .registerContainer2{
+        width: 200px;
+        height: 400px;
+    }
+    .registerContainer2 input{
+        padding: 2px;
+        margin: 3px;
+    }
 }
