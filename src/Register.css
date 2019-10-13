@@ -22,11 +22,11 @@
 }
 @media only screen and (max-width: 500px){
     .registerContainer2{
-        width: 200px;
-        height: 400px;
+        width: 300px;
+        height: 475px;
     }
     .registerContainer2 input{
-        padding: 2px;
-        margin: 3px;
+        padding: 5px;
+        margin: 5px;
     }
 }
